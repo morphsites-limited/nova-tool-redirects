@@ -28,6 +28,7 @@
     "extra":{
         "laravel": {
             "providers": [
+                "Dewsign\\NovaToolRedirects\\Providers\\AuthServiceProvider",
                 "Dewsign\\NovaToolRedirects\\Providers\\PackageServiceProvider",
                 "Dewsign\\NovaToolRedirects\\Providers\\EventServiceProvider"
             ]
